@@ -1,4 +1,4 @@
-<!-- Taiwan_Addiction_map_tool_16color_dev_safe19.html 20260423更新 -->
+<!-- Taiwan_Addiction_map_tool_16color_dev_safe19_cartoAPI.html 20260828補API更新 -->
 <!-- 這是一段註解，瀏覽器不會顯示 -->
 
 <!DOCTYPE html>
@@ -12,8 +12,8 @@
         default-src 'self';
         script-src 'self' 'nonce-EDNENVB34928' https://unpkg.com https://cdnjs.cloudflare.com;
         style-src 'self' 'unsafe-inline' https://unpkg.com;
-        img-src 'self' data: https://*.basemaps.cartocdn.com https://unpkg.com;
-        connect-src 'self' https://*.basemaps.cartocdn.com;
+        img-src 'self' data: https://*.basemaps.cartocdn.com https://*.cartocdn.com https://unpkg.com;
+        connect-src 'self' https://*.basemaps.cartocdn.com https://*.cartocdn.com;
         object-src 'none';
         base-uri 'self';
     ">
@@ -183,7 +183,7 @@
             }).setView([23.6978, 120.9605], 8);
             
             L.control.zoom({ position: 'bottomright' }).addTo(map);
-            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=cb1_2f37_1_d48a19effd56b1cffc9dd99a', {
                 attribution: '© OpenStreetMap © CARTO',
                 subdomains: 'abcd', maxZoom: 20
             }).addTo(map);
