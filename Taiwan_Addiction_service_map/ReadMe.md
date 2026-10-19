@@ -93,8 +93,7 @@ https://openservice.tmapcenter.org/Taiwan_Addiction_service_map/Taiwan_Addiction
 
 組成。
 
-不需要後端資料庫即可部署，
-適合透過 GitHub Pages 或一般靜態網站伺服器提供服務。
+透過 GitHub Pages 伺服器提供服務。
 
 ## 注意事項
 
@@ -106,7 +105,7 @@ https://openservice.tmapcenter.org/Taiwan_Addiction_service_map/Taiwan_Addiction
 ## 維護
 衛生福利部心理健康司 機構資料更新
 
-Taiwan Addiction Medicine and Policy Center（TMAP Center）吳靖則 開源協力程式碼維護
+Taiwan Mental Health and Addiction Policy Center (TMAP Center）吳靖則 開源協力程式碼維護
 
 如發現資料錯誤、服務異動或系統問題，
 歡迎回報以協助持續改善本工具。
